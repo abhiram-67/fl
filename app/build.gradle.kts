@@ -15,7 +15,7 @@ android {
     namespace = "com.malopieds.innertune"
     compileSdk = 34
     defaultConfig {
-        applicationId = "com.malopieds.innertune"
+        applicationId = "com.abhiram.flowtune"
         minSdk = 24
         targetSdk = 34
         versionCode = 26
