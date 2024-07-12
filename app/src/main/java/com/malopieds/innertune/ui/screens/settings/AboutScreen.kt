@@ -147,6 +147,14 @@ fun AboutScreen(
                     contentDescription = null,
                 )
             }
+            IconButton(
+                onClick = { uriHandler.openUri("https://www.github.com/abhiram-67/flowtune/") }
+            ) {
+                Icon(
+                    painter = painterResource(R.drawable.liberapay),
+                    contentDescription = null
+                )
+            }
         }
     }
 
