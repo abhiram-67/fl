@@ -18,8 +18,8 @@ android {
         applicationId = "com.abhiram"
         minSdk = 24
         targetSdk = 34
-        versionCode = 26
-        versionName = "0.8.4"
+        versionCode = 27
+        versionName = "0.8.6"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
