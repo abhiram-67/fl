@@ -150,6 +150,16 @@ fun AboutScreen(
         }
     }
 
+
+    Spacer(Modifier.height(4.dp))
+
+        Text(
+            text = "Explore the world of Music",
+            style = MaterialTheme.typography.titleMedium,
+            color = MaterialTheme.colorScheme.secondary,
+        )
+        
+
     TopAppBar(
         title = { Text(stringResource(R.string.about)) },
         navigationIcon = {
