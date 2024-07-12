@@ -15,7 +15,7 @@ android {
     namespace = "com.malopieds.innertune"
     compileSdk = 34
     defaultConfig {
-        applicationId = "com.abhiram.flowtune"
+        applicationId = "com.abhiram"
         minSdk = 24
         targetSdk = 34
         versionCode = 26
@@ -29,7 +29,7 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
         debug {
-            applicationIdSuffix = ".debug"
+            applicationIdSuffix = ".flowtune"
         }
     }
     flavorDimensions += "version"
