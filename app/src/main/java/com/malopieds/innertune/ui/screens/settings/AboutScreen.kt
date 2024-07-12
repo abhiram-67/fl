@@ -143,15 +143,15 @@ fun AboutScreen(
                 onClick = { uriHandler.openUri("https://abhiram-67.github.io/flowtune/") },
             ) {
                 Icon(
-                    painter = painterResource(R.drawable.info),
+                    painter = painterResource(R.drawable.language),
                     contentDescription = null,
                 )
             }
             IconButton(
-                onClick = { uriHandler.openUri("https://www.github.com/abhiram-67/flowtune/") }
+                onClick = { uriHandler.openUri("https://abhiram-67.github.io/flowtune/website/pages/index.html") }
             ) {
                 Icon(
-                    painter = painterResource(R.drawable.liberapay),
+                    painter = painterResource(R.drawable.info),
                     contentDescription = null
                 )
             }
