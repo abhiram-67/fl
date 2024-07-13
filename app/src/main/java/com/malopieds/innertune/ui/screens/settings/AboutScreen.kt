@@ -148,7 +148,7 @@ fun AboutScreen(
                 )
             }
             IconButton(
-                onClick = { uriHandler.openUri("https://abhiram-67.github.io/flowtune/website/pages/index.html") }
+                onClick = { uriHandler.openUri("https://abhiram-67.github.io/flowtune/website/pages/8.6.html") }
             ) {
                 Icon(
                     painter = painterResource(R.drawable.update),
