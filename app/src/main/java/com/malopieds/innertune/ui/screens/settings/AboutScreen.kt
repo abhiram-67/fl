@@ -111,7 +111,7 @@ fun AboutScreen(
                 Spacer(Modifier.width(4.dp))
 
                 Text(
-                    text = "DEBUG",
+                    text = "Release",
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.secondary,
                     modifier =
@@ -151,7 +151,7 @@ fun AboutScreen(
                 onClick = { uriHandler.openUri("https://abhiram-67.github.io/flowtune/website/pages/index.html") }
             ) {
                 Icon(
-                    painter = painterResource(R.drawable.info),
+                    painter = painterResource(R.drawable.update),
                     contentDescription = null
                 )
             }
